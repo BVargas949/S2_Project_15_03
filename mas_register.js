@@ -7,8 +7,8 @@
 
    Filename: mas_register.js
 
-   Author:  
-   Date:    
+   Author:  Bryan Vargas
+   Date:    04/23/19
    
    Function List
    =============
@@ -27,4 +27,7 @@
 
 
 */
-
+window.addEventListener("onload", function () {
+      calcCart();
+      document.getElementById("regSubmit").onclick = sessionTest;
+});
